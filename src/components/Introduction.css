@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+  height: 80vh;
+  color: #ffffffff;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+.intro {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-content: center;
+}
+
+
+.info{
+  display: flex;
+}
+
+/* .person__icon {
+  
+  width: 10%;
+  } */
+
+/* Animated Button */
+
+.btn-three {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: xx-large ;
+  letter-spacing: 5px;
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.btn-three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  background-color: rgba(53, 53, 53, 0.281);
+  transition: all 0.3s;
+}
+.btn-three:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+.btn-three::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.2, 1.2);
+}
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+
+
+
+.social__media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.social__media__list {
+  display: flex;
+  flex-direction: column;
+  height: 76%;
+  justify-content:space-evenly;
+}
+
+
+
+.social__media__list li:hover{
+  cursor: pointer;
+  transition: all 0.3s;
+  transform: scale(1.3);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    color: #ffffffff;
+  }
+
+  .person__icon {
+   
+    width: 50%;
+    margin-left: 7rem;
+  }
+
+  .social__media__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
