@@ -1,62 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
 
-header{
-    display: flex;
+header {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 0 50px;
-  /* box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0.555); */
 }
 
-.nav__list{
-    width: 500px;
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.nav__list {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  margin-top: 30px;
+  font-family: "Philosopher", sans-serif;
+}
+
+.nav__list li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.nav__list li a {
+  text-decoration: none;
+  color: #ffffffff;
+  padding: 10px;
+  font-weight: bold;
+  font-size: larger;
+  transition: background-color 0.2s ease;
+  border-radius: 5px;
+}
+
+.nav__list li a:hover {
+  text-decoration: none;
+  background-color: #ffffffff;
+  color: #000000ff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
     display: flex;
+
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    justify-items: center;
-    margin-top: 30px;
-    font-family: 'Philosopher', sans-serif;
-}
-
-
-.nav__list li{
-    
-    list-style-type: none;
-    padding: 10px;
-}
-
-.nav__list li a{
-    text-decoration: none;
-    color: #FFFFFFFF;
-    padding: 10px;
-    font-weight: bold;
-    font-size: larger;
-    transition: background-color 0.2s ease;
-    border-radius: 5px;
-}
-
-.nav__list li a:hover{
-    text-decoration: none;
-    background-color: #FFFFFFFF;
-    color:#000000FF;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-    .nav__list{
-        width: 500px;
-        display: none;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        justify-items: center;
-        margin-top: 30px;
-        font-family: 'Philosopher', sans-serif;
-    }
-   
+    padding: 0 50px;
   }
-  
+
+  .hamburger {
+    cursor: pointer;
+    display: block;
+ 
+  }
+
+  nav{
+    display: none;
+  }
+
+}
+
+
+
+
+
+

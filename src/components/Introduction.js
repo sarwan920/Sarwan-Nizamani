@@ -10,7 +10,7 @@ import linkedin from "../icons/linkedin.png";
 
 const Introduction = () => {
   return (
-    <main className="container">
+    <main className="introduction_container">
       <div className="social__media">
         <ul className="social__media__list">
           <li style={{ listStyleType: "none" }}>
