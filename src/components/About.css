@@ -1,0 +1,40 @@
+.about{
+    font-family: "Bebas Neue", cursive;
+    color: #ffffffff;
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .heading h1{
+    color: #ffffffff;
+}
+
+.about__container{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+    
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Exo 2', sans-serif;
+    font-size: larger;
+    padding: 3rem;
+    
+}
+
+.skills{
+    font-family: 'Exo 2', sans-serif;
+    font-size: large;
+    padding: 3rem;
+    
+}
