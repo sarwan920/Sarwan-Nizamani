@@ -13,7 +13,7 @@ header {
   display: none;
 }
 
-.nav__list {
+ .nav__list {
   width: 500px;
   display: flex;
   flex-direction: row;
@@ -45,7 +45,10 @@ header {
   color: #000000ff;
   border-radius: 5px;
   padding: 10px;
-}
+} 
+
+
+
 
 @media only screen and (max-width: 800px) {
   header {

@@ -140,6 +140,10 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  .social__media__list li{
+    margin:0 1rem;
+  }
 }
 
 

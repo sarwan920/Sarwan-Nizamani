@@ -1,59 +1,44 @@
 import React from "react";
 import "./About.css";
-
+import { Fade } from "react-reveal";
 const About = () => {
   return (
     <>
-      <main id="about" className="about">
+      <section className="about" id="about">
         <div className="heading">
-          <h1>About Me</h1>
+          <Fade bottom>
+            <h1>About</h1>
+          </Fade>
         </div>
 
-        <div className="about__container">
-          <div className="description">
-            <h1>Description</h1>
-            <p >
-              FrontEnd Developer having e "At vero eos et accusamus et iusto
-              odio dignissimos ducimus qui blanditiis praesentium voluptatum
-              deleniti atque corrupti quos dolores et quas molestias excepturi
-              sint occaecati cupiditate non provident, similique sunt in culpa
-              qui officia deserunt mollitia animi, id est laborum et dolorum
-              fuga. Et harum quidem rerum facilis est et expedita distinctio.
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque
-              nihil impedit quo minus id quod maxime placeat facere possimus,
-              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
-              autem quibusdam et aut officiis debitis aut rerum necessitatibus
-              saepe eveniet ut et voluptates repudiandae sint et molestiae non
-              recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut
-              aut reiciendis voluptatibus maiores alias consequatur aut
-              perferendis doloribus asperiores repellat."
-            </p>
-          </div>
+        <div className="about__content">
+          <Fade left>
+            <div className="about__text">
+              <p>
+                I am Front End Developer, who loves to code. Having experience in Designing
+                and Developing multiple websites using different FrontEnd technologies.
+                Currently, working with ReactJS with Hasura&#40;GraphQL&#41;,
+                I am a person who loves to exploer new things I am going for new path of Full Stack Developer.
+              </p>
+            </div>
+          </Fade>
 
-      
-
-
-          <div className="skills">
-            <h1>Skills</h1>
-            <p className="description">
-              FrontEnd Developer having e "At vero eos et accusamus et iusto
-              odio dignissimos ducimus qui blanditiis praesentium voluptatum
-              deleniti atque corrupti quos dolores et quas molestias excepturi
-              sint occaecati cupiditate non provident, similique sunt in culpa
-              qui officia deserunt mollitia animi, id est laborum et dolorum
-              fuga. Et harum quidem rerum facilis est et expedita distinctio.
-              Nam libero tempore, cum soluta nobis est eligendi optio cumque
-              nihil impedit quo minus id quod maxime placeat facere possimus,
-              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
-              autem quibusdam et aut officiis debitis aut rerum necessitatibus
-              saepe eveniet ut et voluptates repudiandae sint et molestiae non
-              recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut
-              aut reiciendis voluptatibus maiores alias consequatur aut
-              perferendis doloribus asperiores repellat."
-            </p>
-          </div>
+          <Fade right cascade>
+            <div className="about__skills">
+              <button className="button">HTML5</button>
+              <button className="button">CSS</button>
+              <button className="button">JavaScript ES5/ES6+</button>
+              <button className="button">ReactJS</button>
+              <button className="button">VueJS</button>
+              <button className="button">Rest API</button>
+              <button className="button">Firebase</button>
+              <button className="button">NodeJs</button>
+              <button className="button">Hasura</button>
+              <button className="button">Apollo GraphQL</button>
+            </div>
+          </Fade>
         </div>
-      </main>
+      </section>
     </>
   );
 };

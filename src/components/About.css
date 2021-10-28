@@ -1,40 +1,105 @@
-.about{
-    font-family: "Bebas Neue", cursive;
-    color: #ffffffff;
+@import url("https://fonts.googleapis.com/css2?family=Amaranth&display=swap");
+.about {
+  width: 70%;
+  height: 100vh;
+  color: #ffffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  border-top: rgba(255, 255, 255, 0.336) solid 1px;
 }
 
-
-.heading{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.about h1 {
+  font-weight: bold;
+  font-size: 6rem;
+  letter-spacing: 7px;
+  font-family: "Bebas Neue", cursive;
 }
 
-.about .heading h1{
-    color: #ffffffff;
-}
-
-.about__container{
-    display: flex;
+.about__content {
+  display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   justify-content: center;
-    
+  height: 100vh;
 }
 
-.description{
+.about__text {
+  width: 50%;
+  align-self: flex-start;
+  margin-top: 5rem;
+  font-size: x-large;
+  font-family: "Amaranth", sans-serif;
+}
+
+.about__skills {
+  align-self: flex-start;
+  margin-left: 4rem;
+  margin-top: 6rem;
+
+  width: 30%;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border: 0.1em solid #ffffff;
+  background-color: rgb(0, 0, 0);
+  margin: 0.5rem;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Amaranth", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    width: 80%;
+    height: 70vh;
+    color: #ffffffff;
     display: flex;
     flex-direction: column;
-    
-    font-family: 'Exo 2', sans-serif;
-    font-size: larger;
-    padding: 3rem;
-    
-}
+    align-content: flex-start;
+    margin-top: 15rem;
+    border-top: rgba(255, 255, 255, 0.336) solid 1px;
+  }
 
-.skills{
-    font-family: 'Exo 2', sans-serif;
+  .about h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 7px;
+    font-family: "Bebas Neue", cursive;
+    align-self: flex-start;
+  }
+
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-end; */
+  }
+
+  .about__text {
+    width: 100%;
+    margin-top: 2rem;
     font-size: large;
-    padding: 3rem;
-    
+    font-family: "Amaranth", sans-serif;
+  }
+
+  .about__skills {
+    align-self: flex-end;
+    margin-top: 1rem;
+
+    width: 100%;
+  }
 }
