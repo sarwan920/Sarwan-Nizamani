@@ -59,7 +59,7 @@ const Introduction = () => {
       <Zoom > 
         <div className="intro">
           <h1 style={{ letterSpacing: "5px" }}>I'm Sarwan Nizamani</h1>
-          <h3 style={{ letterSpacing: "3px" }}>
+          <h3>
             FrontEnd Developer | ReactJS | VueJS | Hasura{" "}
           </h3>
           <div className="box-3">

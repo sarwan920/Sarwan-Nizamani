@@ -15,8 +15,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   align-content: center;
+  /* white-space: nowrap; */
+}
+
+.intro h1{
+  white-space: nowrap;
+  
+}
+
+.intro h3{
+  letter-spacing: 3px;
+  
 }
 
 .info {
