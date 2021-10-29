@@ -14,7 +14,7 @@ const Introduction = () => {
   return (
     <main className="introduction_container">
       <div className="social__media">
-        <Fade left>
+        <Fade left cascade>
           <ul className="social__media__list">
             <li style={{ listStyleType: "none" }}>
               <a
