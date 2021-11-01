@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Amaranth&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap");
 .about {
-  width: 70%;
-  height: 100vh;
   color: #ffffffff;
   display: flex;
   flex-direction: column;
@@ -13,32 +11,38 @@
 
 .about h1 {
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 4.5rem;
   letter-spacing: 7px;
   font-family: "Bebas Neue", cursive;
 }
 
+.about h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 10rem;
+  background-color: rgb(255, 255, 255);
+}
+
 .about__content {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
   height: 100vh;
 }
 
 .about__text {
   width: 50%;
-  align-self: flex-start;
-  margin-top: 5rem;
+  align-self: center;
   font-size: x-large;
-  font-family: "Amaranth", sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
 .about__skills {
-  align-self: flex-start;
-  margin-left: 4rem;
-  margin-top: 6rem;
+  align-self:center;
 
-  width: 30%;
+  width: 50%;
 }
 
 .button {
@@ -50,7 +54,8 @@
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Amaranth", sans-serif;
+
+  font-family: "Catamaran", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   color: #ffffff;
@@ -65,8 +70,8 @@
 
 @media only screen and (max-width: 800px) {
   .about {
-    width: 80%;
-    height: 70vh;
+    
+
     color: #ffffffff;
     display: flex;
     flex-direction: column;
@@ -86,14 +91,13 @@
   .about__content {
     display: flex;
     flex-direction: column;
-    /* align-self: flex-end; */
   }
 
   .about__text {
     width: 100%;
     margin-top: 2rem;
     font-size: large;
-    font-family: "Amaranth", sans-serif;
+    font-family: "Catamaran", sans-serif;
   }
 
   .about__skills {

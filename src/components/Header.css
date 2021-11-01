@@ -4,9 +4,18 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* position: fixed;
+  top: 0;
+  width:100%; */
   align-items: center;
-  padding: 0 4rem;
+  
+  padding:0 4rem;
+
 }
+
+/* .heading{
+  margin-left: 3rem;
+} */
 
 .hamburger {
   cursor: pointer;
@@ -21,6 +30,8 @@ header {
   align-items: center;
   justify-items: center;
   margin-top: 30px;
+  /* margin-right: 2rem; */
+  
   font-family: "Philosopher", sans-serif;
 }
 

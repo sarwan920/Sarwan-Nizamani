@@ -1,0 +1,105 @@
+.work {
+  
+  color: #ffffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  border-top: rgba(255, 255, 255, 0.336) solid 1px;
+}
+
+.work .heading h1 {
+  font-weight: bold;
+  font-size: 4.5rem;
+  letter-spacing: 7px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.work .heading h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 10rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.work__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 6rem;
+  
+}
+
+.work__list {
+  
+  
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.work__text {
+  width: 35%;
+  font-family: 'Catamaran', sans-serif;
+  font-size: x-large;
+}
+
+.work__text h3 {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.work__image-box img {
+  width: 45rem;
+  
+}
+
+
+@media only screen and (max-width: 800px){
+ 
+  .work__box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 6rem;
+  }
+
+  .work__text {
+    width: 100%;
+    font-family: 'Catamaran', sans-serif;
+    font-size:larger;
+    margin-top: 3rem;
+    
+  }
+
+  .work__text h3 {
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 3px;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .work__image-box img {
+    width: 100%;
+    
+    
+  }
+
+  .work .heading h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 7px;
+    font-family: "Bebas Neue", cursive;
+    align-self: flex-start;
+  }
+
+ 
+  
+
+}

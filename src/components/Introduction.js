@@ -12,7 +12,7 @@ import { Fade, Zoom , Slide  } from "react-reveal";
 
 const Introduction = () => {
   return (
-    <main className="introduction_container">
+    <section className="introduction_container">
       <div className="social__media">
         <Fade left cascade>
           <ul className="social__media__list">
@@ -75,7 +75,7 @@ const Introduction = () => {
           <img className="person__icon" alt="self" src={PersonIcon} />
         </div>
       </Slide >
-    </main>
+    </section>
   );
 };
 

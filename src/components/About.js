@@ -7,7 +7,7 @@ const About = () => {
       <section className="about" id="about">
         <div className="heading">
           <Fade bottom>
-            <h1>About</h1>
+            <h1>About Me</h1>
           </Fade>
         </div>
 
@@ -18,7 +18,7 @@ const About = () => {
                 I am Front End Developer, who loves to code. Having experience in Designing
                 and Developing multiple websites using different FrontEnd technologies.
                 Currently, working with ReactJS with Hasura&#40;GraphQL&#41;,
-                I am a person who loves to exploer new things I am going for new path of Full Stack Developer.
+                I am a person who loves to exploer new things. I am open to various roles.
               </p>
             </div>
           </Fade>

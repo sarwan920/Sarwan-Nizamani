@@ -10,7 +10,6 @@
 }
 
 .intro {
- 
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -19,23 +18,19 @@
   /* white-space: nowrap; */
 }
 
-.intro h1{
+.intro h1 {
   white-space: nowrap;
-  
 }
 
-.intro h3{
+.intro h3 {
   letter-spacing: 3px;
-  
 }
 
 .info {
   display: flex;
   height: 100%;
-  flex-direction: column; 
-  justify-content: center; 
- 
-  
+  flex-direction: column;
+  justify-content: center;
 }
 
 .person__icon {
@@ -120,52 +115,39 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-   
-    color: #ffffffff;
-    
-  }
 
- 
+    color: #ffffffff;
+  }
 
   .info {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 100%; 
-  
+    height: 100%;
   }
-
-
-  
 
   .person__icon {
     height: 60%;
-    width: 100%;  
+    width: 100%;
   }
 
-  .social__media{
+  .social__media {
     width: 100%;
   }
 
   .social__media__list {
     display: flex;
     flex-direction: row;
-  height: 100%;
-  justify-content: flex-start;
-    
-    
+    height: 100%;
+    justify-content: flex-start;
   }
 
-  .social__media__list li{
-    margin:0 0.5rem;
-   
-    
+  .social__media__list li {
+    margin: 0 0.5rem;
   }
 
-  .social__media__list li img{
+  .social__media__list li img {
     width: 3rem;
     padding: 0;
   }
 }
-
-

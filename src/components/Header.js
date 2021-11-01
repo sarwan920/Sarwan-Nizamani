@@ -19,6 +19,7 @@ const Header = () => {
             letterSpacing: "5px",
             color: "#FFFFFFFF",
           }}
+          className="heading"
         >
           Sarwan
         </h1>
