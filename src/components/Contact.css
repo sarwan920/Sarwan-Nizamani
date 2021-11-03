@@ -105,4 +105,15 @@ textarea {
     border: #ffffffff 1px solid;
     border-radius: 0.3rem;
   }
+
+
+  .contact .heading h1 {
+    align-self: center;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 7px;
+    font-family: "Bebas Neue", cursive;
+  }
+  
+
 }
