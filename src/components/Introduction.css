@@ -20,10 +20,14 @@
 
 .intro h1 {
   white-space: nowrap;
+  font-weight: bold;
+  font-size: 3rem;
+  letter-spacing: 7px;
 }
 
 .intro h3 {
   letter-spacing: 3px;
+  font-family: "Catamaran", sans-serif;
 }
 
 .info {
@@ -100,12 +104,11 @@
   flex-direction: column;
   height: 50%;
   justify-content: space-evenly;
-
   padding-left: 0;
 }
 
 .social__media__list li img:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: all 0.3s;
   transform: scale(1.3);
 }

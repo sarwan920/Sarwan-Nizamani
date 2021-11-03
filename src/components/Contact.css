@@ -1,0 +1,108 @@
+.contact {
+  color: #ffffffff;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-top: rgba(255, 255, 255, 0.336) solid 1px;
+}
+
+.contact .heading h1 {
+  align-self: center;
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 7px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.contact .heading h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 10rem;
+  background-color: rgb(255, 255, 255);
+}
+
+/* .contact__form{
+  width: 100%;
+  
+  
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  font-family: "Catamaran", sans-serif;
+}
+
+form,
+input,
+textarea {
+  margin-bottom: 4rem;
+  width: 50%;
+
+  padding: 0 20px;
+}
+
+.contact__button {
+  margin-bottom: 4rem;
+  width: 20%;
+  padding: 20px 20px;
+  background-color: black;
+  color: #ffffff;
+  border: #ffffffff 1px solid;
+  border-radius: 0.3rem;
+}
+
+.contact__button:hover {
+  background-color: #ffffff;
+  color: black;
+  border: white 1px solid;
+  border-radius: 0.3rem;
+}
+
+input {
+  height: 3rem;
+  background-color: black;
+  color: #ffffffff;
+  border: #ffffffff 1px solid;
+  border-radius: 0.3rem;
+}
+
+textarea {
+  background-color: black;
+  font-size: x-large;
+  color: #ffffffff;
+  border: #ffffffff 1px solid;
+  border-radius: 0.3rem;
+}
+
+.contact__button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  form,
+  input,
+  textarea {
+    width: 70%;
+
+    padding: 0 20px;
+  }
+
+  .contact__button {
+    margin-bottom: 4rem;
+    width: 50%;
+    padding: 20px 20px;
+    background-color: black;
+    color: #ffffff;
+    border: #ffffffff 1px solid;
+    border-radius: 0.3rem;
+  }
+}

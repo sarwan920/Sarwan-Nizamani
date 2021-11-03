@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
+
 
 header {
   display: flex;
@@ -30,9 +30,8 @@ header {
   align-items: center;
   justify-items: center;
   margin-top: 30px;
-  /* margin-right: 2rem; */
+  font-family: "Catamaran", sans-serif;
   
-  font-family: "Philosopher", sans-serif;
 }
 
 .nav__list li {

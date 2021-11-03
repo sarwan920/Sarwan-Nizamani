@@ -1,0 +1,44 @@
+footer {
+  color: #ffffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  border-top: rgba(255, 255, 255, 0.336) solid 1px;
+  padding: 4rem;
+}
+
+
+.footer__social-media{
+  display: flex;
+  padding-left: 0;
+  
+}
+
+
+.footer__social-media li{
+  margin: 1rem;
+}
+
+footer p{
+  font-size: x-large;
+  font-family: "Catamaran", sans-serif;
+}
+
+
+@media only screen and (max-width: 800px){
+
+  .footer__social-media li{
+    margin: 0.5rem;
+  }
+
+  .footer__social-media li img{
+    width: 4rem;
+  }
+
+  footer p{
+    font-size: large;
+    font-family: "Catamaran", sans-serif;
+  }
+}

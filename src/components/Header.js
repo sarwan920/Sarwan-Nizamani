@@ -19,7 +19,6 @@ const Header = () => {
             letterSpacing: "5px",
             color: "#FFFFFFFF",
           }}
-          className="heading"
         >
           Sarwan
         </h1>
@@ -51,8 +50,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-
-      
       </header>
       {/* 
       {toggle && (
