@@ -58,6 +58,9 @@ textarea {
   color: #ffffff;
   border: #ffffffff 1px solid;
   border-radius: 0.3rem;
+  font-family: "Bebas Neue", cursive;
+  font-size: x-large;
+  letter-spacing: 3px;
 }
 
 .contact__button:hover {
@@ -98,6 +101,7 @@ textarea {
 
   .contact__button {
     margin-bottom: 4rem;
+   
     width: 50%;
     padding: 20px 20px;
     background-color: black;
