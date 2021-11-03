@@ -84,7 +84,7 @@ const Contact = () => {
           {/* <input  type="submit" value="Send" /> */}
             { emailSent && <p>You message has been recieved!</p>}
           <button type="submit" value="Send" style={{display:"flex" , flexDirection:"row" , justifyContent:"center" }} className="contact__button" >
-          { loading && <ClipLoader  loading={loading} size={30} />}
+          { loading && <ClipLoader color="white" loading={loading} size={30} />}
            {!loading && "Submit"}
           </button>
         </form>
