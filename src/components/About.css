@@ -76,6 +76,7 @@
     align-content: flex-start;
     margin-top: 15rem;
     border-top: rgba(255, 255, 255, 0.336) solid 1px;
+    width: 100%;
   }
 
   .about h1 {

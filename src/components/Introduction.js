@@ -8,7 +8,7 @@ import insta from "../icons/insta.png";
 import github from "../icons/github.png";
 import linkedin from "../icons/linkedin.png";
 
-import { Fade, Zoom, Slide } from "react-reveal";
+import { Fade, Slide } from "react-reveal";
 
 const Introduction = () => {
   return (
@@ -55,7 +55,7 @@ const Introduction = () => {
           </ul>
         </Fade>
       </div>
-
+{/* 
       <div className="intro">
         <Zoom>
           <h1 style={{ letterSpacing: "5px" }}>I'm Sarwan Nizamani</h1>
@@ -66,7 +66,7 @@ const Introduction = () => {
             </div>
           </div>
         </Zoom>
-      </div>
+      </div> */}
 
       <div className="info">
         <Slide right>
